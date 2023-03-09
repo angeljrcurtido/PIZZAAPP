@@ -1,0 +1,173 @@
+.prueba {
+    display: flex;
+}
+
+.input1 {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.confirmacion {
+    border: 1px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.pizzatop {
+    margin-bottom: 11px;
+}
+
+.tuorden {
+    margin-left: 51px;
+    margin-top: 3%;
+}
+
+a.btn.btn-success {
+    margin-right: 3%;
+}
+
+.bloqueprimero {
+    background: bisque;
+    display: flex;
+    justify-content: center;
+    
+}
+
+a.btn.btn-success.primero {
+    flex: 1;
+}
+.pruebascroll {
+    height: 259px;
+    overflow-y: scroll;
+    width: 46%;
+    border-left: 2px solid black;
+}
+
+.cajaorden {
+    flex:1;
+}
+
+.logopedidos {
+    flex: 1;
+    width: 13%;
+    height: 91px;
+    filter: drop-shadow(0px 7px 21px gray);
+    animation: rotar 5s linear infinite;
+}
+
+
+.tituloprincipal {
+    color: azure;
+    text-shadow: 1%;
+    font-family: cursive;
+padding-top: 2%;
+flex: 6;
+
+}
+
+
+.btn.btn-success.logout {
+    flex: 1;
+    margin-right: 4%;
+}
+
+.cajadebotones {
+    padding-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.pizzatop2 {
+    width: 16%;
+    height: 92px;
+    
+}
+
+.cajadelogin {
+    width: auto;
+    height: 625px;
+    background-image: url(./imagen/Abstract-Color-Background-Picture-1920-x-1200.jpg);
+}
+
+
+
+.titulologin {
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.form-label.email {
+    color: white;
+    font-weight: bold;
+}
+
+.form-label.password {
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 32%;
+    width: 35%;
+    height: 230px;
+    background-image: url(./imagen/5-2-pizza-png-picture.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    filter: drop-shadow(0px 7px 21px gray);
+    animation: rotar 5s linear infinite;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+.subcaja {
+    flex: 1;
+}
+
+.imagenfondo {
+    flex: 1;
+    height: 72%;
+
+}
+
+.cajadelogin2 {
+    display: flex;
+    width: auto;
+    height: 625px;
+    background-image: url(./imagen/Abstract-Color-Background-Picture-1920-x-1200.jpg);
+}
+
+.btn.btn-success.pedidos {
+    margin-bottom: 4%;
+    margin-top: 2%;
+    padding-top: 2%;
+    margin-left: 6%;
+}
+.tituloprincipal {
+    margin-top: 1%;
+}
+
+.cajaflex{
+    flex: 1;
+    
+}
+
+.cajasupergrande {
+    display: flex;
+flex-wrap: wrap;
+}
